@@ -42,6 +42,7 @@ if /i "!kata1!"=="cls" cls & goto menu
 if /i "!kata1!"=="help" goto help
 if /i "!kata1!"=="login" goto login
 if /i "!kata1!"=="start" start Terminal.bat
+if /i "!kata1!"=="exit" exit
 
 if /i "!kata1!"=="open" (
 	if /i "!kata2!"=="os" start %os% & goto menu
@@ -65,6 +66,7 @@ echo start                    Launch this program
 echo help -program            Menu fitur program
 echo cls                      To clear terminal screen
 echo login                    Return to the main page
+echo exit                     To close the terminal
 echo.
 goto menu
 
