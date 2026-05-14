@@ -4,9 +4,9 @@ title Terminal
 mode con: cols=120 lines=30
 
 ::program
-set "os=%~dp0..\Tools\OS_Mini.bat"
-set "hecking=%~dp0..\Tools\config\hecking.bat"
-set "matrix=%~dp0..\Tools\config\matrix.bat"
+set "os=%~dp0..\Tools-V1.4\OS_Mini.bat"
+set "hecking=%~dp0..\Tools-V1.4\\config\hecking.bat"
+set "matrix=%~dp0..\Tools-V1.4\\config\matrix.bat"
 
 ::halaman pertama
 :login
