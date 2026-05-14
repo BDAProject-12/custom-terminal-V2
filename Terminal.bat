@@ -52,7 +52,7 @@ if /i "!kata1!"=="open" (
 )
 
 ::kode error
-echo [!] Error code "%input%", type "help" to see help menu.
+echo [!] Error code "%input%", type "help -program" to see help menu.
 goto menu
 
 ::fitur bawaan
