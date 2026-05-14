@@ -15,7 +15,7 @@ echo.
 echo   Welcome To Terminal
 echo.
 echo  * Time : %time% ^| * Version : V2.3
-echo  * Date : %date%  ^| * Author  : BDA Project
+echo  * Date : %date%  ^| * Author  : https://github.com/BDAProject-12
 echo.
 goto menu
 
