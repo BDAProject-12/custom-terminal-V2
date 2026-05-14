@@ -47,7 +47,7 @@ if /i "!kata1!"=="open" (
 	if /i "!kata2!"=="os" start %os% & goto menu
 	if /i "!kata2!"=="hecking" start %hecking% & goto menu
 	if /i "!kata2!"=="matrix" start %matrix% & goto menu
-	echo [!] Error code "%input%", type "help" to see help menu.
+	echo [!] Error code "%input%", type "help -program" to see help menu.
 	goto menu
 )
 
