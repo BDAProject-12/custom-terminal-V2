@@ -17,6 +17,8 @@ echo.
 echo  * Time : %time% ^| * Version : V2.3
 echo  * Date : %date%  ^| * Author  : https://github.com/BDAProject-12
 echo.
+echo  [^>] Type "help" to see the command
+echo.
 goto menu
 
 :menu
